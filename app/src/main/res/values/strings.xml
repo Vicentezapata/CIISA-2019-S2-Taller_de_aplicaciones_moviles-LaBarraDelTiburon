@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LaBarraDelTiburon</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="mainTittle">Entra a tu bodega</string>
+
+    <string name="clave">Clave</string>
+    <string name="correo">Correo</string>
+
+
+    <!-- STRINGS REGISTRO USUARIO -->
+    <string name="rpclave">Repetir Clave</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="fechanac">Fecha de nacimiento</string>
+    <string name="genero">Genero</string>
+    <string name="registrar_receta">Registrar receta</string>
+    <string name="listado_de_recetas">Listado de recetas</string>
+</resources>
