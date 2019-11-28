@@ -74,10 +74,10 @@ public class ListCocktails extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String nombreCoctel = cockteles[position];
-                Toast.makeText(view.getContext(),"position: "+position+"nombre: "+nombreCoctel, Toast.LENGTH_SHORT).show();
-                /*Intent intent = new Intent(view.getContext(),NOMBREDEACTIVIDAD.class);
-                intent.putExtra("cocktel",position);
-                startActivity(intent);*/
+                //Toast.makeText(view.getContext(),"position: "+position+"nombre: "+nombreCoctel, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(view.getContext(),ResultCocktail.class);
+                intent.putExtra("nameCocktSelected",nombreCoctel);
+                startActivity(intent);
             }
         });
 

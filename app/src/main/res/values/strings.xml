@@ -33,6 +33,7 @@
     <string name="menu_send">Send</string>
     <string name="correo_usuario">Correo usuario</string>
     <string name="recordar_usuario">Recordar usuario</string>
+    <string name="nombrecoctel">nombreCoctel</string>
 
 
     <!-- VARIABLES CLAVES -->

@@ -16,6 +16,8 @@ public class RegisterActivity extends AppCompatActivity {
 
     private int mYear, mMonth, mDay;
     private TextInputLayout til_date;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
          mDay  = calendar.get(Calendar.DAY_OF_MONTH);
          mMonth  = calendar.get(Calendar.MONTH);
          mYear  = calendar.get(Calendar.YEAR);
-        til_date.getEditText().setOnClickListener(new View.OnClickListener() {
+         til_date.getEditText().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -47,6 +49,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
         });
+
 
 
 
