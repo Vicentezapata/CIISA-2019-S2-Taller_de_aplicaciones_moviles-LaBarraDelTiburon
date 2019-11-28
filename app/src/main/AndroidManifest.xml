@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.copiabarra">
+    package="com.example.labarradeltiburon">
 
     <application
         android:allowBackup="true"
@@ -9,8 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListCocktails"></activity>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".ListCocktailActivity"
+            android:label="@string/title_activity_list_cocktail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ListCocktails" />
+        <activity android:name=".RegisterCocktail" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

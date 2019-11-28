@@ -1,4 +1,4 @@
-package com.example.copiabarra;
+package com.example.labarradeltiburon;
 
 import org.junit.Test;
 
